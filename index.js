@@ -2,6 +2,15 @@ const axios = require('axios')
 const ping = require("net-ping");
 const deasync = require('deasync')
 const log4js = require('log4js')
+const fs = require('fs')
+
+const config = JSON.parse(fs.readFileSync(__dirname + "/config.json"))
+
+if (config.done_editing === false)
+{
+    console.error("Please edit the config.json file and change done_editing to true!")
+    process.exit(1)
+}
 
 log4js.configure({
     appenders: {
@@ -15,8 +24,8 @@ var logger = log4js.getLogger();
 logger.level = 'debug'
 logger.info("App started!");
 
-const username = "jOKhgqaaUB6zIRqyw6ipWkjL2z0WkEVayw4nqElB" //username to connect to hue lights
-const url = "http://10.0.0.38"
+const username = config.username //username to connect to hue lights
+const url = config.bridge_ip
 
 function GetLightsSync(url, username, callback)
 {
@@ -57,19 +66,19 @@ try
 {
     while (true)
     {
-        session.pingHost('10.0.0.54', async function(error, target) {
+        session.pingHost(config.computer_ip, async function(error, target) {
             if (error)
             {
                 GetLightsSync(url, username, async (data) => {
-                    console.log(`Computer is OFF! Light #1 is ${data["1"].state.on ? "ON!" : "OFF!"} Light #2 is ${data["2"].state.on ? "ON!" : "OFF!"}`)
-                    if (data["1"].state.on === true)
+                    console.log(`Computer is OFF! Light #1 is ${data[config.light_ids[0]].state.on ? "ON!" : "OFF!"} Light #2 is ${data[config.light_ids[1]].state.on ? "ON!" : "OFF!"}`)
+                    if (data[config.light_ids[0]].state.on === true)
                     {
                         console.log("Turning off light #1...")
                         try
                         {
                             const res = await axios({
                                 method: 'put',
-                                url: `${url}/api/${username}/lights/1/state`,
+                                url: `${url}/api/${username}/lights/${config.light_ids[0]}/state`,
                                 headers: {},
                                 data: {
                                     on: false,
@@ -93,14 +102,14 @@ try
                             console.error("Light #1 was NOT successfully turned off! " + error)
                         }
                     }
-                    if (data["2"].state.on === true)
+                    if (data[config.light_ids[1]].state.on === true)
                     {
                         console.log("Turning off light #2...")
                         try
                         {
                             const res = await axios({
                                 method: 'put',
-                                url: `${url}/api/${username}/lights/2/state`,
+                                url: `${url}/api/${username}/lights/${config.light_ids[1]}/state`,
                                 headers: {},
                                 data: {
                                     on: false,
@@ -129,15 +138,15 @@ try
             else
             {
                 GetLightsSync(url, username, async (data) => {
-                    console.log(`Computer is ON! Light #1 is ${data["1"].state.on ? "ON!" : "OFF!"} Light #2 is ${data["2"].state.on ? "ON!" : "OFF!"}`)
-                    if (data["1"].state.on === false)
+                    console.log(`Computer is ON! Light #1 is ${data[config.light_ids[0]].state.on ? "ON!" : "OFF!"} Light #2 is ${data[config.light_ids[1]].state.on ? "ON!" : "OFF!"}`)
+                    if (data[config.light_ids[0]].state.on === false)
                     {
                         console.log("Turning on light #1...")
                         try
                         {
                             const res = await axios({
                                 method: 'put',
-                                url: `${url}/api/${username}/lights/1/state`,
+                                url: `${url}/api/${username}/lights/${config.light_ids[0]}/state`,
                                 headers: {},
                                 data: {
                                     on: true,
@@ -161,14 +170,14 @@ try
                             console.error("Light #1 was NOT successfully turned on! " + error)
                         }
                     }
-                    if (data["2"].state.on === false)
+                    if (data[config.light_ids[1]].state.on === false)
                     {
                         console.log("Turning on light #2...")
                         try
                         {
                             const res = await axios({
                                 method: 'put',
-                                url: `${url}/api/${username}/lights/2/state`,
+                                url: `${url}/api/${username}/lights/${config.light_ids[1]}/state`,
                                 headers: {},
                                 data: {
                                     on: true,

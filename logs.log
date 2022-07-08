@@ -171,3 +171,14 @@
 [2022-07-08T12:19:52.084] [ERROR] default - Light #1 stopped flashing NOT successfully!
 [2022-07-08T12:19:52.084] [INFO] default - Stopping light #2 from flashing...
 [2022-07-08T12:19:52.097] [ERROR] default - Light #2 stopped flashing NOT successfully!
+[2022-07-08T12:20:33.040] [INFO] default - App started!
+[2022-07-08T12:20:43.126] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T12:20:43.152] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T12:20:53.161] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T12:20:53.185] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T14:57:42.202] [INFO] default - App started!
+[2022-07-08T15:05:20.910] [INFO] default - App started!
+[2022-07-08T15:05:43.195] [INFO] default - App started!
+[2022-07-08T15:06:19.639] [INFO] default - App started!
+[2022-07-08T15:06:19.708] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T15:06:19.738] [INFO] default - Light #2 was successfully turned on!

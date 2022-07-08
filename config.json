@@ -1,0 +1,8 @@
+{
+    "bridge_ip":"ex: http://00.0.0.00",
+    "username":"username_here",
+    "light_ids":["1","2"],
+    "computer_ip":"ex: 00.0.0.00",
+    "log_file_path":"logs.log",
+    "done_editing":false
+}
