@@ -11,6 +11,6 @@ Then copy the ip address and put it in the bridge_ip section of the config file.
 
 http://(bridge ip address)/debug/clip.html
 
-The tab should look like this:!
+The tab should look like this:
 
-[image](https://user-images.githubusercontent.com/88277260/178057384-50e3d423-bcbb-49d6-a89e-e70b37919442.png)
+![image](https://user-images.githubusercontent.com/88277260/178057384-50e3d423-bcbb-49d6-a89e-e70b37919442.png)
