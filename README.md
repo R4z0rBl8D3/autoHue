@@ -14,3 +14,19 @@ http://(bridge ip address)/debug/clip.html
 The tab should look like this:
 
 ![image](https://user-images.githubusercontent.com/88277260/178057384-50e3d423-bcbb-49d6-a89e-e70b37919442.png)
+
+Put in the URL text field:
+
+`/api`
+
+And in the Message Body field:
+
+`{"devicetype":"my_hue_app#YOUR DEVICE NAME HERE"}`
+
+Press the POST button. I think it only works for mobile devices but I haven't tried it on my computer yet, I just used my phone. Then it should say in Command Response that there is an error and the description should say "link button not pressed". Go to your bridge and press the button. Then press the POST button again and it should give you the username. Put the username in the config file.
+
+For the light_ids field you should be able to leave it, but if you only have one light then it should look like this: `"light_ids":["1"]`. You can also add more if you have more lights by adding commas and incrementing the number by 1 (it has to be in quotation marks).
+
+To find your computer ip search up how to find it on your operating system and fill it out in the config file. You can leave log_file_path alone and change false to true for done_editing.
+
+Then run the program by going into the terminal and going into the correct directory and typing `node .`
