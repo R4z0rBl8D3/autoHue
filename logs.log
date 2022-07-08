@@ -1,0 +1,173 @@
+[2022-07-07T19:23:56.471] [DEBUG] default - Some debug messages
+[2022-07-07T19:23:56.475] [INFO] default - App exiting!
+[2022-07-07T19:24:04.192] [DEBUG] default - Some debug messages
+[2022-07-07T19:24:04.196] [INFO] default - App exiting!
+[2022-07-07T19:24:23.184] [DEBUG] default - App started!
+[2022-07-07T19:24:23.188] [INFO] default - App exiting!
+[2022-07-07T19:24:28.138] [DEBUG] default - App started!
+[2022-07-07T19:24:28.142] [INFO] default - App exiting!
+[2022-07-07T19:24:35.112] [INFO] default - App started!
+[2022-07-07T19:24:35.117] [INFO] default - App exiting!
+[2022-07-07T19:42:56.224] [INFO] default - App started!
+[2022-07-07T19:42:56.228] [INFO] default - App exiting!
+[2022-07-07T19:50:03.672] [INFO] default - App started!
+[2022-07-07T19:50:03.676] [INFO] default - App exiting!
+[2022-07-07T19:50:06.606] [ERROR] default - Light #1 was not successfully turned off!
+[2022-07-07T19:50:06.650] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-07T19:50:32.393] [INFO] default - App started!
+[2022-07-07T19:50:32.398] [INFO] default - App exiting!
+[2022-07-07T19:50:39.729] [INFO] default - App started!
+[2022-07-07T19:50:39.734] [INFO] default - App exiting!
+[2022-07-07T19:50:42.657] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-07T19:50:42.659] [ERROR] default - Light #1 was not successfully turned off!
+[2022-07-07T19:51:07.144] [INFO] default - App started!
+[2022-07-07T19:51:07.148] [INFO] default - App exiting!
+[2022-07-07T19:51:10.100] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-07T19:51:10.102] [ERROR] default - Light #1 was not successfully turned off!
+[2022-07-07T19:52:38.401] [INFO] default - App started!
+[2022-07-07T19:52:38.405] [INFO] default - App exiting!
+[2022-07-07T19:52:43.282] [INFO] default - App started!
+[2022-07-07T19:52:43.286] [INFO] default - App exiting!
+[2022-07-07T19:52:46.113] [ERROR] default - Light #1 was not successfully turned off! TypeError: Cannot read properties of undefined (reading 'success')
+[2022-07-07T19:52:46.115] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-07T19:53:46.068] [INFO] default - App started!
+[2022-07-07T19:53:46.072] [INFO] default - App exiting!
+[2022-07-07T19:53:50.091] [INFO] default - App started!
+[2022-07-07T19:53:50.096] [INFO] default - App exiting!
+[2022-07-07T19:53:53.107] [ERROR] default - Light #1 was not successfully turned off! TypeError: Cannot read properties of undefined (reading 'success')
+[2022-07-07T19:53:53.115] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-07T19:54:55.583] [INFO] default - App started!
+[2022-07-07T19:54:55.588] [INFO] default - App exiting!
+[2022-07-07T19:55:00.616] [INFO] default - App started!
+[2022-07-07T19:55:00.621] [INFO] default - App exiting!
+[2022-07-07T19:55:03.557] [ERROR] default - Light #1 was not successfully turned off! TypeError: Cannot read properties of undefined (reading 'success')
+[2022-07-07T19:55:03.599] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-07T19:56:05.422] [INFO] default - App started!
+[2022-07-07T19:56:05.426] [INFO] default - App exiting!
+[2022-07-07T19:56:06.597] [ERROR] default - Light #1 was not successfully turned off!
+[2022-07-07T19:56:26.355] [INFO] default - App started!
+[2022-07-07T19:56:26.359] [INFO] default - App exiting!
+[2022-07-07T19:56:33.774] [INFO] default - App started!
+[2022-07-07T19:56:33.778] [INFO] default - App exiting!
+[2022-07-07T19:56:36.643] [ERROR] default - Light #1 was not successfully turned off!
+[2022-07-07T19:56:36.655] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-07T19:58:35.231] [INFO] default - App started!
+[2022-07-07T19:58:55.325] [ERROR] default - Light #1 was not successfully turned on!
+[2022-07-07T19:58:55.341] [ERROR] default - Light #2 was not successfully turned on!
+[2022-07-07T19:59:14.401] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-07T19:59:14.402] [ERROR] default - Light #1 was not successfully turned off!
+[2022-07-07T19:59:28.436] [INFO] default - App started!
+[2022-07-07T19:59:58.600] [ERROR] default - Light #1 was not successfully turned on!
+[2022-07-07T19:59:58.603] [ERROR] default - Light #2 was not successfully turned on!
+[2022-07-07T20:00:32.602] [ERROR] default - Light #1 was not successfully turned off!
+[2022-07-07T20:00:32.612] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-07T20:00:43.537] [ERROR] default - Light #1 was not successfully turned on!
+[2022-07-07T20:01:32.641] [ERROR] default - Light #1 was not successfully turned off!
+[2022-07-07T20:01:32.646] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-07T20:02:13.140] [INFO] default - App started!
+[2022-07-07T20:02:13.245] [ERROR] default - Light #2 was not successfully turned on!
+[2022-07-07T20:02:13.254] [ERROR] default - Light #1 was not successfully turned on!
+[2022-07-07T20:02:37.934] [INFO] default - App started!
+[2022-07-07T20:05:02.252] [INFO] default - App started!
+[2022-07-07T20:05:39.064] [INFO] default - App started!
+[2022-07-07T20:05:42.106] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-07T20:05:42.108] [ERROR] default - Light #1 was not successfully turned off!
+[2022-07-08T11:39:53.529] [INFO] default - App started!
+[2022-07-08T11:39:53.697] [ERROR] default - Light #1 was not successfully turned on!
+[2022-07-08T11:39:53.699] [ERROR] default - Light #2 was not successfully turned on!
+[2022-07-08T11:41:41.990] [INFO] default - App started!
+[2022-07-08T11:41:44.620] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-08T11:42:34.578] [INFO] default - App started!
+[2022-07-08T11:42:50.669] [INFO] default - App started!
+[2022-07-08T11:43:08.644] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-08T11:43:50.017] [INFO] default - App started!
+[2022-07-08T11:44:01.923] [INFO] default - App started!
+[2022-07-08T11:44:09.594] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-08T11:44:30.326] [INFO] default - App started!
+[2022-07-08T11:44:38.085] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-08T11:45:06.942] [INFO] default - App started!
+[2022-07-08T11:45:14.598] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-08T11:45:32.443] [INFO] default - App started!
+[2022-07-08T11:45:40.102] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-08T11:45:51.669] [INFO] default - App started!
+[2022-07-08T11:45:54.630] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-08T11:46:57.962] [INFO] default - App started!
+[2022-07-08T11:47:05.604] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-08T11:47:36.351] [INFO] default - App started!
+[2022-07-08T11:47:44.098] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-08T11:48:12.572] [INFO] default - App started!
+[2022-07-08T11:48:15.558] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T11:48:15.616] [ERROR] default - Light #2 was not successfully turned off!
+[2022-07-08T11:53:49.549] [INFO] default - App started!
+[2022-07-08T11:53:51.072] [INFO] default - Light #1 was successfully turned off!
+[2022-07-08T11:53:51.135] [INFO] default - Light #2 was successfully turned off!
+[2022-07-08T11:54:07.561] [INFO] default - Light #1 was successfully turned off!
+[2022-07-08T11:54:07.616] [INFO] default - Light #2 was successfully turned off!
+[2022-07-08T11:54:49.674] [INFO] default - App started!
+[2022-07-08T11:56:36.887] [INFO] default - App started!
+[2022-07-08T11:56:36.993] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T11:56:37.009] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:56:41.974] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:56:46.996] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:56:51.939] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:56:56.943] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:57:01.947] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:57:06.957] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:57:11.983] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:57:16.998] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:57:22.015] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:57:27.034] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:57:31.983] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:57:36.995] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:57:41.997] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:57:47.014] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:57:52.022] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:57:57.043] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:58:45.638] [INFO] default - App started!
+[2022-07-08T11:58:45.691] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:58:50.696] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:58:55.715] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:59:00.732] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:59:05.748] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:59:10.747] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T11:59:10.769] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:59:15.715] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:59:20.713] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:59:25.721] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:59:30.730] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:59:35.749] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T11:59:40.770] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T12:00:30.974] [INFO] default - App started!
+[2022-07-08T12:00:42.734] [INFO] default - App started!
+[2022-07-08T12:01:57.903] [INFO] default - App started!
+[2022-07-08T12:02:08.000] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T12:02:08.031] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T12:02:18.012] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T12:02:18.053] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T12:02:57.068] [INFO] default - Light #1 was successfully turned off!
+[2022-07-08T12:02:57.131] [INFO] default - Light #2 was successfully turned off!
+[2022-07-08T12:03:08.193] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T12:03:08.239] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T12:03:46.475] [INFO] default - App started!
+[2022-07-08T12:03:51.574] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T12:03:56.593] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T12:04:16.596] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T12:04:16.623] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T12:04:21.585] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T12:04:46.688] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T12:04:46.717] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T12:19:06.035] [INFO] default - App started!
+[2022-07-08T12:19:16.130] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T12:19:16.180] [INFO] default - Light #2 was successfully turned on!
+[2022-07-08T12:19:16.181] [INFO] default - Waiting 3 seconds for lights to flash...
+[2022-07-08T12:19:19.181] [INFO] default - Stopping light #1 from flashing...
+[2022-07-08T12:19:19.198] [ERROR] default - Light #1 stopped flashing NOT successfully!
+[2022-07-08T12:19:19.199] [INFO] default - Stopping light #2 from flashing...
+[2022-07-08T12:19:19.217] [ERROR] default - Light #2 stopped flashing NOT successfully!
+[2022-07-08T12:19:43.998] [INFO] default - App started!
+[2022-07-08T12:19:49.067] [INFO] default - Light #1 was successfully turned on!
+[2022-07-08T12:19:49.068] [INFO] default - Waiting 3 seconds for lights to flash...
+[2022-07-08T12:19:52.072] [INFO] default - Stopping light #1 from flashing...
+[2022-07-08T12:19:52.084] [ERROR] default - Light #1 stopped flashing NOT successfully!
+[2022-07-08T12:19:52.084] [INFO] default - Stopping light #2 from flashing...
+[2022-07-08T12:19:52.097] [ERROR] default - Light #2 stopped flashing NOT successfully!
