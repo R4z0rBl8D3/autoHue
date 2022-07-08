@@ -13,7 +13,7 @@ http://(bridge ip address)/debug/clip.html
 
 The tab should look like this:
 
-![image](https://user-images.githubusercontent.com/88277260/178057384-50e3d423-bcbb-49d6-a89e-e70b37919442.png)
+![image](https://user-images.githubusercontent.com/88277260/178059187-91c77c2c-db80-45aa-ad33-61d379e30257.png)
 
 Put in the URL text field:
 
